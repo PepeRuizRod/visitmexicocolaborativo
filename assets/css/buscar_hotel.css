@@ -1,0 +1,10 @@
+.alinear{
+    display: flex;
+    margin: 0px;
+    padding: 0%;
+    justify-content: center;
+    align-items: baseline;
+}
+.alinear div{   
+    padding: 25px;
+}
