@@ -1,7 +1,7 @@
 .alinear{
     display: flex;
     margin: 0px;
-    padding: 0%;
+    padding-left: 180px;
     justify-content: center;
     align-items: baseline;
 }
