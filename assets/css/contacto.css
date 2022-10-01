@@ -1,0 +1,43 @@
+
+
+
+
+
+.title_prin {
+    color:red;
+    text-align: center;
+    padding: 80px ;
+    font-weight: 800;
+    font-size: 50px;
+
+}
+
+.descrip{
+
+    font-weight: 700;
+    font-size: 25px;
+}
+
+label {
+    font-weight: 800;
+
+}
+.ini_form {
+    
+    
+    position: fixed ;
+    left:500px;
+    
+
+}
+input {
+    border-color:gold;
+    border-radius: 10px;
+    
+}
+
+textarea {
+    border-radius: 10px;
+    border-color: green;
+    border-width: 5px;
+}
