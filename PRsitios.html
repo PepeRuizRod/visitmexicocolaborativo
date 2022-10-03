@@ -46,8 +46,6 @@
 <!--Closed NAV-->
 <!--OPEN INICIO LUGARES ARQUEOLOGICOS-->
 <div class="container-fluid"><img src="./assets/images/portada_sitios.jpg" alt="" width="1310"></div>
-
-
 <!--CLOSED INICIO LUGARES ARQUEOLOGICOS-->
 <!--OPEN LUGARES ARQUITECTONICOS-->
 
@@ -140,54 +138,82 @@
           <div><button type="button" class="btn btn-primary">Ver ofertas</button></div>
         </div><br><hr>
 <!--FORMULARIO Y SUSCRIPCION-->
-<form><br>
-<div class="form_align">
-  <h3>¡Comparte tu experiencia con nosotros!</h3>
-  <h5>Regístrate con tu correo, envíanos tus comentarios y la <strong> mejor foto </strong>de tu visita...</h5>
-  <div class="background_form"><br><br><br><br>
-  <div class="form-group row">
-    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-    <div class="col-sm-5">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="inputComment3" class="col-sm-2 col-form-label">Registrar Visita</label>
-    <div class="col-sm-5">
-      <input type="text" class="form-control" placeholder="¿Que lugar visitaste?, Comparte aqui tus comentarios...">
-    </div>
-  </div>
-  <fieldset class="form-group">
-    <div class="row">
-      <legend class="col-form-label col-sm-2 pt-0">¿Quieres suscribirte?</legend>
-      <div class="col-sm-10">
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-          <label class="form-check-label" for="gridRadios1">
-            Si
-          </label>
+<div class="formulario">
+  <form action="">
+    <fieldset class="fieldset">
+      <legend><h2>Comparte tu experiencia</h2></legend>
+        <div>
+          <label>Elige el tipo del lugar que visitaste</label>
+          <br>
+          <select class="form-select form-select-sm color_form" aria-label=".form-select-sm example">
+            <option selected></option>
+            <option value="1">Playa</option>
+            <option value="2">Sitio arqueológico</option>
+            <option value="3">Pueblo Mágico</option>
+          </select>
         </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-          <label class="form-check-label" for="gridRadios2">
-            No
-          </label>
+        <div>
+          <br>
+          <label for="formGroupExampleInput" class="form-label">Nombre del lugar que visitaste</label>
+          <input type="text" class="form-control color_form" id="formGroupExampleInput" placeholder="Xcaret, Tehotihuacan, Isla Mujeres...">
         </div>
-      </div>
-    </div>
-    <div class="form-group">
-      <label for="exampleFormControlFile1">Elegir Fotos</label>
-      <input type="file" class="form-control-file" id="exampleFormControlFile1">
-    </div>
-  </fieldset>
-  <div class="form-group row">
-    <div class="col-sm-10">
-      <button type="submit" class="btn btn-primary">Enviar</button>
-    </div>
-  </div><br><br>
-  </div>
+        <div>
+          <br>
+          <label>Estado de la Republica</label>
+          <br>
+          <select class="form-select form-select-sm color_form" aria-label=".form-select-sm example">
+            <option selected></option>
+            <option value="DIF">Distrito Federal</option>
+	          <option value="AGS">Aguascalientes</option>
+	          <option value="BCN">Baja California</option>
+	          <option value="BCS">Baja California Sur</option>
+	          <option value="CAM">Campeche</option>
+	          <option value="CHP">Chiapas</option>
+	          <option value="CHI">Chihuahua</option>
+	          <option value="COA">Coahuila</option>
+	          <option value="COL">Colima</option>
+	          <option value="DUR">Durango</option>
+	          <option value="GTO">Guanajuato</option>
+	          <option value="GRO">Guerrero</option>
+	          <option value="HGO">Hidalgo</option>
+	          <option value="JAL">Jalisco</option>
+	          <option value="MEX">M&eacute;xico</option>
+	          <option value="MIC">Michoac&aacute;n</option>
+	          <option value="MOR">Morelos</option>
+	          <option value="NAY">Nayarit</option>
+	          <option value="NLE">Nuevo Le&oacute;n</option>
+	          <option value="OAX">Oaxaca</option>
+	          <option value="PUE">Puebla</option>
+	          <option value="QRO">Quer&eacute;taro</option>
+	          <option value="ROO">Quintana Roo</option>
+	          <option value="SLP">San Luis Potos&iacute;</option>
+	          <option value="SIN">Sinaloa</option>
+	          <option value="SON">Sonora</option>
+	          <option value="TAB">Tabasco</option>
+	          <option value="TAM">Tamaulipas</option>
+	          <option value="TLX">Tlaxcala</option>
+	          <option value="VER">Veracruz</option>
+	          <option value="YUC">Yucat&aacute;n</option>
+	          <option value="ZAC">Zacatecas</option>
+          </select>
+        </div>
+        <div class="form-floating">
+          <br>
+          <label for="floatingTextarea2">Escribe un comentario y agrega una <strong>foto </strong>de tu visita</label>
+          <textarea class="form-control color_form" placeholder="Comentarios..." id="floatingTextarea2" style="height: 100px"></textarea>
+        </div>
+        <div class="input-group mb-3">
+          <br>
+          <input type="file" class="form-control color_form" id="inputGroupFile02">
+        </div>
+    </fieldset>
+  </form>
 </div>
-</form>
+
+
+
+
+
 <!--OPEN Footer-->
         <footer class="footer-distributed">
             <div class="footer-left">
