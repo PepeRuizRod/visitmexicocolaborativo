@@ -1,0 +1,12 @@
+*{
+    padding: 0%;
+    margin: 0%  ;
+    border: 0%;
+
+}
+.comentarios{
+    width: 800px;
+    height: auto;
+    float: left;
+    margin: 10px;
+}
